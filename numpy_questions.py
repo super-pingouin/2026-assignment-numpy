@@ -43,7 +43,7 @@ def max_index(X):
     # TODO
     try :
         n, m = X.shape
-        S=-np.inf
+        S=(i,j)
         for i in range(n):
             for j in range(m):
                 if X[i,j]>X[S[0],S[1]]:
